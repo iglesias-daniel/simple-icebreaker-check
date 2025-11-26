@@ -23,12 +23,7 @@ Clona este repositorio:
 Este proyecto utiliza el archivo `main.mk` de los ejemplos oficiales de iCEBreaker. Para obtener únicamente ese archivo:
 
 ```bash
-    git clone --no-checkout https://github.com/icebreaker-fpga/icebreaker-verilog-examples.git
-    cd icebreaker-verilog-examples
-    git sparse-checkout init
-    git sparse-checkout set main.mk
-    git checkout
-    cd ..
+    git clone https://github.com/icebreaker-fpga/icebreaker-verilog-examples.git
     mv icebreaker-verilog-examples/main.mk .
     rm -rf icebreaker-verilog-examples
 ```
