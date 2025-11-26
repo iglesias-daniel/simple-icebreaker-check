@@ -29,6 +29,8 @@ Este proyecto utiliza el archivo `main.mk` de los ejemplos oficiales de iCEBreak
     git sparse-checkout set main.mk
     git checkout
     cd ..
+    mv icebreaker-verilog-examples/main.mk .
+    rm -rf icebreaker-verilog-examples
 ```
 Asegúrate de tener conectada tu FPGA iCEBreaker v1.0e y ejecuta:
 
